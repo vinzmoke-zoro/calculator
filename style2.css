@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+}
+#s {
+    background-color: black;
+    width: 20%;
+    text-align: center;
+    margin: 0 auto;
+    
+}
+h1{
+    text-align: center;
+    color: rgb(94, 91, 250);
+}
+.card{
+  margin: 0 auto;
+  max-width: 350px;
+  text-align: center;
+  margin-top: 10px;
+  box-shadow: 0px 4px 8px 0 rgba(156, 48, 48, 0.459);
+  transition: 0.3s;
+  font-size: 0;
+}
+.card:hover{
+    box-shadow: 0px 16px 32px 0 rgba(255, 4, 4, 0.518);
+}
+.calc-head #result{
+    width: 335px;
+    height: 100px;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: right;
+    padding: 0 5px;
+    letter-spacing: 2px;
+}
+.btn{
+    background-color: #1f2326;
+    width: 87px;
+    height: 70px;
+    font-weight: bold;
+    font-size: 16px;
+    color: white;
+}
+.btn-style{
+    background-color: rgb(6, 11, 73);
+    width: 87px;
+    height: 70px;
+    font-weight: bold;
+    font-size: 16px;
+    color: white;
+}
+.btn:hover{
+    background-color: aquamarine ;
+}
+.btn-style:hover{
+    background-color: aqua;
+}
+.m{
+    background-color: #f5b400;
+    width: 87px;
+    height: 70px;
+    font-weight: bold;
+    font-size: 16px;
+    color: white;
+}
+.m:hover{
+    background-color: orangered;
+}
