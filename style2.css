@@ -6,6 +6,8 @@ body{
     background-color: black;
 }
 #s {
+    display: flex;
+    justify-content: center;
     background-color: black;
     width: 20%;
     text-align: center;
